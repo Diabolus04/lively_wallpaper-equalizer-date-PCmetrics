@@ -15,11 +15,11 @@ Interaktywna tapeta na pulpit (np. dla Lively Wallpaper) łącząca wizualizator
   * **Efekty basu:** czułość wykrywania basu, rozbłysk tła przy basie, kolor i siła rozbłysku oraz animowane iskry w tle (ilość, przyspieszenie przy basie i jego siła).
   * ![image](https://github.com/user-attachments/assets/0cb86870-0dfc-4744-974f-c41cf78a9ded)
   * ![image](https://github.com/user-attachments/assets/0aed9efb-a565-4aad-bb95-84430dc8cbf1)
+  * ![image](https://github.com/user-attachments/assets/5e4ee4b7-cdd5-4593-b498-2c06474b1fe4)
 * **Integracja ze Spotify**
   * Wyświetlanie okładki albumu (w stylu kołowym) oraz tytułu i wykonawcy aktualnie odtwarzanego utworu.
   * Regulacja odległości tekstu od środka oraz poziomego przesunięcia tekstu.
   * ![image](https://github.com/user-attachments/assets/0aed9efb-a565-4aad-bb95-84430dc8cbf1)
-  * ![image](https://github.com/user-attachments/assets/5e4ee4b7-cdd5-4593-b498-2c06474b1fe4)
 * **Zegar i data**
   * Wyświetlanie dnia tygodnia, daty, godziny oraz opcjonalnie sekund.
   * Obsługa formatu 24h oraz wybór języka daty (m.in. polski).
@@ -47,11 +47,11 @@ Interaktywna tapeta na pulpit (np. dla Lively Wallpaper) łącząca wizualizator
   * **Bass effects:** bass detection sensitivity, background bass flash, flash color and intensity, plus background sparks (spark count, bass acceleration, and acceleration strength).
   * ![image](https://github.com/user-attachments/assets/0cb86870-0dfc-4744-974f-c41cf78a9ded)
   * ![image](https://github.com/user-attachments/assets/0aed9efb-a565-4aad-bb95-84430dc8cbf1)
+  * ![image](https://github.com/user-attachments/assets/5e4ee4b7-cdd5-4593-b498-2c06474b1fe4)
 * **Spotify Track Info**
   * Display the circular album art along with the current track title and artist.
   * Fine-tune text distance from the center and horizontal text offset.
   * ![image](https://github.com/user-attachments/assets/0aed9efb-a565-4aad-bb95-84430dc8cbf1)
-  * ![image](https://github.com/user-attachments/assets/5e4ee4b7-cdd5-4593-b498-2c06474b1fe4)
 * **Clock & Date**
   * Show day of the week, date, time, and optional seconds.
   * Supports 24-hour format and date language selection (including Polish).
