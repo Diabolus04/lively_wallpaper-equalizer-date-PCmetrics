@@ -1,5 +1,6 @@
 # lively_wallpaper: equalizer, date,PC metrics v6
 lively wallpaper equalizer date PC metrics
+minimum 8GB RAM
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1a04eb00-99de-4c04-ad14-96291c288fba" alt="Wizualizator muzyki i statystyki PC" width="48%">
   <img src="https://github.com/user-attachments/assets/ec9e0f57-2538-438e-a521-a70bebbdc6e0" alt="Zegar i data na pulpicie" width="48%">
