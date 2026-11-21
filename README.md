@@ -1,8 +1,9 @@
 # lively_wallpaper: equalizer, date,PC metrics v6
 lively wallpaper equalizer date PC metrics
-| Wizualizator + Statystyki PC | Zegar i data |
-| :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/1a04eb00-99de-4c04-ad14-96291c288fba" alt="Wizualizator muzyki i statystyki PC" width="100%"> | <img src="https://github.com/user-attachments/assets/ec9e0f57-2538-438e-a521-a70bebbdc6e0" alt="Zegar i data na pulpicie" width="100%"> |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1a04eb00-99de-4c04-ad14-96291c288fba" alt="Wizualizator muzyki i statystyki PC" width="48%">
+  <img src="https://github.com/user-attachments/assets/ec9e0f57-2538-438e-a521-a70bebbdc6e0" alt="Zegar i data na pulpicie" width="48%">
+</p>
 Interaktywna tapeta na pulpit (np. dla Lively Wallpaper) łącząca wizualizator muzyki zintegrowany ze Spotify, konfigurowalny zegar z datą oraz podgląd parametrów PC.
 
 ---
