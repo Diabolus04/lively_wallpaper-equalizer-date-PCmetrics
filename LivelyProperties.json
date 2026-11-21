@@ -1,0 +1,522 @@
+{
+  "l1": {
+    "type": "label",
+    "value": "===== TŁO ====="
+  },
+  "bgFolder": {
+    "type": "folderDropdown",
+    "value": "",
+    "text": "Własna tapeta (wybierz z listy lub dodaj własny plik)",
+    "filter": "*.jpg|*.jpeg|*.png|*.bmp|*.gif|*.webp|*.mp4|*.webm",
+    "folder": "backgrounds"
+  },
+  "bgColor": {
+    "type": "color",
+    "value": "#3b1204",
+    "text": "Kolor tła (gdy brak tapety)"
+  },
+  "bgFit": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Wypełnij (cover)",
+      "Dopasuj (contain)",
+      "Rozciągnij"
+    ],
+    "text": "Dopasowanie tapety"
+  },
+  "bgBlur": {
+    "type": "slider",
+    "value": 0,
+    "min": 0,
+    "max": 40,
+    "step": 1,
+    "text": "Rozmycie tła"
+  },
+  "bgDim": {
+    "type": "slider",
+    "value": 30,
+    "min": 0,
+    "max": 95,
+    "step": 1,
+    "text": "Przyciemnienie tła (%)"
+  },
+  "l2": {
+    "type": "label",
+    "value": "===== EQUALIZER ====="
+  },
+  "viz": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Włącz equalizer"
+  },
+  "vizStyle": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Blob – organiczny (jak na zdjęciu)",
+      "Słupki kołowe",
+      "Kontur falujący",
+      "Kropki w okręgu",
+      "Słupki na dole (poziome)",
+      "Słupki lustrzane",
+      "Fala / waveform",
+      "Pulsujące pierścienie"
+    ],
+    "text": "Styl equalizera"
+  },
+  "vizX": {
+    "type": "slider",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 0.5,
+    "text": "Pozycja poziomo X (%)"
+  },
+  "vizY": {
+    "type": "slider",
+    "value": 52,
+    "min": 0,
+    "max": 100,
+    "step": 0.5,
+    "text": "Pozycja pionowo Y (%)"
+  },
+  "size": {
+    "type": "slider",
+    "value": 100,
+    "min": 30,
+    "max": 250,
+    "step": 5,
+    "text": "Rozmiar (%)"
+  },
+  "vizColor": {
+    "type": "color",
+    "value": "#ff9a4a",
+    "text": "Kolor zewnętrzny"
+  },
+  "vizColor2": {
+    "type": "color",
+    "value": "#ffd9a8",
+    "text": "Kolor wewnętrzny (jasny)"
+  },
+  "ringColor": {
+    "type": "color",
+    "value": "#7a3a10",
+    "text": "Kolor obwódki okładki"
+  },
+  "sens": {
+    "type": "slider",
+    "value": 100,
+    "min": 20,
+    "max": 400,
+    "step": 5,
+    "text": "Czułość (%)"
+  },
+  "glow": {
+    "type": "slider",
+    "value": 100,
+    "min": 0,
+    "max": 300,
+    "step": 5,
+    "text": "Blask (%)"
+  },
+  "rotSpeed": {
+    "type": "slider",
+    "value": 100,
+    "min": 0,
+    "max": 500,
+    "step": 10,
+    "text": "Prędkość obrotu (%)"
+  },
+  "release": {
+    "type": "slider",
+    "value": 12,
+    "min": 3,
+    "max": 40,
+    "step": 1,
+    "text": "Opadanie słupków (szybkość)"
+  },
+  "l2b": {
+    "type": "label",
+    "value": "===== EFEKTY BASU ====="
+  },
+  "bassSens": {
+    "type": "slider",
+    "value": 100,
+    "min": 30,
+    "max": 300,
+    "step": 5,
+    "text": "Czułość wykrywania basu (%)"
+  },
+  "bassFlash": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Rozbłysk tła przy basie"
+  },
+  "flashColor": {
+    "type": "color",
+    "value": "#ff9a4a",
+    "text": "Kolor rozbłysku"
+  },
+  "flashStrength": {
+    "type": "slider",
+    "value": 35,
+    "min": 5,
+    "max": 100,
+    "step": 1,
+    "text": "Siła rozbłysku (%)"
+  },
+  "particles": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Iskry w tle"
+  },
+  "partCount": {
+    "type": "slider",
+    "value": 45,
+    "min": 0,
+    "max": 150,
+    "step": 1,
+    "text": "Ilość iskier"
+  },
+  "particleBass": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Przyspieszenie iskier przy basie"
+  },
+  "particleBoost": {
+    "type": "slider",
+    "value": 6,
+    "min": 1,
+    "max": 20,
+    "step": 1,
+    "text": "Siła przyspieszenia iskier"
+  },
+  "l3": {
+    "type": "label",
+    "value": "===== UTWÓR (SPOTIFY) ====="
+  },
+  "cover": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż okładkę albumu (style kołowe)"
+  },
+  "trackInfo": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż tytuł i wykonawcę"
+  },
+  "infoGap": {
+    "type": "slider",
+    "value": 180,
+    "min": 100,
+    "max": 400,
+    "step": 5,
+    "text": "Odległość tekstu od środka (%)"
+  },
+  "infoDX": {
+    "type": "slider",
+    "value": 0,
+    "min": -600,
+    "max": 600,
+    "step": 5,
+    "text": "Przesunięcie tekstu poziomo (px)"
+  },
+  "titleSize": {
+    "type": "slider",
+    "value": 100,
+    "min": 40,
+    "max": 300,
+    "step": 5,
+    "text": "Rozmiar tekstu (%)"
+  },
+  "titleColor": {
+    "type": "color",
+    "value": "#fff3e0",
+    "text": "Kolor tytułu"
+  },
+  "artistColor": {
+    "type": "color",
+    "value": "#d9b99b",
+    "text": "Kolor wykonawcy"
+  },
+  "manualTitle": {
+    "type": "textbox",
+    "value": "",
+    "text": "Tytuł ręcznie (nadpisuje auto)"
+  },
+  "manualArtist": {
+    "type": "textbox",
+    "value": "",
+    "text": "Wykonawca ręcznie (nadpisuje auto)"
+  },
+  "l4": {
+    "type": "label",
+    "value": "===== ZEGAR I DATA ====="
+  },
+  "clock": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Włącz zegar z datą"
+  },
+  "clockX": {
+    "type": "slider",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 0.5,
+    "text": "Pozycja poziomo X (%)"
+  },
+  "clockY": {
+    "type": "slider",
+    "value": 10,
+    "min": 0,
+    "max": 100,
+    "step": 0.5,
+    "text": "Pozycja pionowo Y (%)"
+  },
+  "clockSize": {
+    "type": "slider",
+    "value": 100,
+    "min": 30,
+    "max": 400,
+    "step": 5,
+    "text": "Rozmiar zegara (%)"
+  },
+  "clockColor": {
+    "type": "color",
+    "value": "#ffffff",
+    "text": "Kolor zegara"
+  },
+  "showDay": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż dzień tygodnia"
+  },
+  "showDate": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż datę"
+  },
+  "showTime": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż godzinę"
+  },
+  "showSeconds": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Pokaż sekundy"
+  },
+  "clock24": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Format 24h"
+  },
+  "clockLang": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Polski",
+      "English"
+    ],
+    "text": "Język daty"
+  },
+  "dayStyle": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Geometryczna (jak na zdjęciu)",
+      "Zwykła (wybrana w Inne)"
+    ],
+    "text": "Czcionka dnia tygodnia"
+  },
+  "dayStroke": {
+    "type": "slider",
+    "value": 160,
+    "min": 60,
+    "max": 400,
+    "step": 10,
+    "text": "Grubość liter dnia (geometryczna)"
+  },
+  "daySpacing": {
+    "type": "slider",
+    "value": 100,
+    "min": 30,
+    "max": 300,
+    "step": 5,
+    "text": "Odstęp między literami dnia (%)"
+  },
+  "l5": {
+    "type": "label",
+    "value": "===== PARAMETRY PC ====="
+  },
+  "stats": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Włącz parametry PC"
+  },
+  "statsX": {
+    "type": "slider",
+    "value": 15,
+    "min": 0,
+    "max": 100,
+    "step": 0.5,
+    "text": "Pozycja poziomo X (%)"
+  },
+  "statsY": {
+    "type": "slider",
+    "value": 94,
+    "min": 0,
+    "max": 100,
+    "step": 0.5,
+    "text": "Pozycja pionowo Y (%)"
+  },
+  "statsSize": {
+    "type": "slider",
+    "value": 100,
+    "min": 30,
+    "max": 400,
+    "step": 5,
+    "text": "Rozmiar (%)"
+  },
+  "statsLayout": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Poziomo",
+      "Pionowo"
+    ],
+    "text": "Układ parametrów"
+  },
+  "statsLabel": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Ikona + nazwa",
+      "Tylko ikona",
+      "Tylko nazwa",
+      "Same wartości"
+    ],
+    "text": "Co wyświetlać przy wartości"
+  },
+  "statsReverse": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Odwróć kolejność (wartość z lewej, ikona/nazwa z prawej)"
+  },
+  "statsOpacity": {
+    "type": "slider",
+    "value": 55,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "text": "Przezroczystość tła panelu (%)"
+  },
+  "statsText": {
+    "type": "color",
+    "value": "#ffffff",
+    "text": "Kolor wartości"
+  },
+  "showCpu": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż CPU (obciążenie)"
+  },
+  "showGpu": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż GPU (obciążenie)"
+  },
+  "showRam": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Pokaż RAM"
+  },
+  "showCpuTemp": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Pokaż temperaturę CPU (wymaga LibreHardwareMonitor)"
+  },
+  "showGpuTemp": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Pokaż temperaturę GPU (wymaga LibreHardwareMonitor)"
+  },
+  "statsSource": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Lively (bez temperatury)",
+      "LibreHardwareMonitor (dokładniejsze + temperatura)"
+    ],
+    "text": "Źródło danych CPU/GPU/RAM"
+  },
+  "lhmUrl": {
+    "type": "textbox",
+    "value": "http://localhost:8085/data.json",
+    "text": "Adres LibreHardwareMonitor"
+  },
+  "l6": {
+    "type": "label",
+    "value": "===== CZCIONKI I INNE ====="
+  },
+  "font": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Segoe UI",
+      "Segoe UI Light",
+      "Segoe UI Semibold",
+      "Arial",
+      "Arial Narrow",
+      "Calibri",
+      "Cambria",
+      "Candara",
+      "Consolas",
+      "Corbel",
+      "Courier New",
+      "Georgia",
+      "Impact",
+      "Lucida Console",
+      "Palatino Linotype",
+      "Tahoma",
+      "Times New Roman",
+      "Trebuchet MS",
+      "Verdana",
+      "Bahnschrift",
+      "Century Gothic",
+      "Franklin Gothic Medium",
+      "Gill Sans MT",
+      "Rockwell",
+      "Comic Sans MS",
+      "Ink Free",
+      "Segoe Script",
+      "Sylfaen"
+    ],
+    "text": "Czcionka"
+  },
+  "customFont": {
+    "type": "folderDropdown",
+    "value": "",
+    "text": "Własna czcionka (wybierz lub dodaj plik .ttf/.otf)",
+    "filter": "*.ttf|*.otf|*.woff|*.woff2",
+    "folder": "fonts"
+  },
+  "customFontFor": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Wszystkich tekstów",
+      "Tylko zegara (data/godzina)",
+      "Tylko tytułu utworu",
+      "Tylko parametrów PC"
+    ],
+    "text": "Zastosuj własną czcionkę do"
+  },
+  "debug": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Pokaż diagnostykę (co wysyła Lively)"
+  }
+}
